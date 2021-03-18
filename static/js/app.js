@@ -29,3 +29,27 @@ data.forEach((dataRow) => {
     );
 });
 }
+
+function handleClick () {
+    // d3 allows us to use the .select and tell it to look for strings datetime in the HTML
+    let date = d3.select("#datetime").property("value");
+    // tableData is the variable we imported from the data.js
+    let filteredData = tableData;
+}
+
+// if - statement syntax
+// if (condition) {code to execute}
+// the code will filter the data based on the date we entered in the code above
+// === means that the date must match the filter exactly
+if (date) {
+    filteredData = filteredData.filter(row => row.datetime === date);
+
+//Rebuild the table using the filtered data
+// @Note: if no date is entered, then filteredData will just be the original tableData
+buildTable(filteredData);
+};
+
+// Attach an event to listen for the form button
+d3.selectAll("#filter-btn").on("click", handleClick);
+
+buildTable(tableData);
