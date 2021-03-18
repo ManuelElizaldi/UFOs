@@ -6,33 +6,26 @@ const tableData = data;
 // Reference the HTML table using d3
 var tbody = d3.select("tbody");
 
-// the code above declares a variable and then uses the d3.select to tell js to look for the <tbody> tags in the HTML
+function buildTable(data) {
+    // start by clearing data off the table
+    tbody.html("");
 
-// Simple js console.log statemnet
-function printHello() {
-    console.log("Hello There ! ");
-};
-
-function addition (a,b) {
-    return a+b;
-};
-
-// to call the previous function - two parameter per function
-console.log(addition(4,5));
-// or
-addition(4,5);
-
-// Functions can call other functions
-function doubleAddition(c,b) {
-    var total = addition(c,b) * 2;
-    return total;
+// data -> an object that references the data being imported
+// foreach -> keyword to create a for loop in js
+// dataRow -> a parameter that will be used as a value when the function is called
+data.forEach((dataRow) => {
+    // this code will create a variable that will append a row to the table body. var is for global variables
+    // this code will tell js to find the tag tbody in the html and add a table row 'tr'
+    let row = tbody.append("tr");
+    // Object.values -> references the array
+    // (dataRow) -> as an argument we are saying that we want the values to go into the dataRow
+    // forEach((val)) because we need to specify that we want one object per row, val will cover all data types
+    Object.values(dataRow).forEach((val) => {
+    // appending data to table
+        let cell = row.append("td");
+    // with the following code we will extract the text from the row
+        cell.text(val);
+        }
+    );
+});
 }
-
-// Arrow functions are iniciated with a fat arrow =>
-// example addition:
-addition = (a,b) => a+b;
-
-//double addition
-doubleAddition = (c,d) => addition(c,d) * 2
-
-// for loops in JS
