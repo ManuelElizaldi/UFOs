@@ -3,7 +3,7 @@
 
 The purpose is well defined (2 pt)
 ### Results:
-!()[UFOs/static/images/results.jpg]
+![](/static/images/results.jpg)
 
 There is a description of how to perform a search, with images. (4 pt)
 Summary:
