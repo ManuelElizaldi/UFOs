@@ -26,6 +26,6 @@ Steps to perform a search using this website:
 1.The dataset has little variety. The dataset is limited to the country of United States during the year of 2010.
 
 ### two additional recommendations for further development
-1.The data set can be expanded to include more sightings from other countries and years.
+1. The data set can be expanded to include more sightings from other countries and years.
 
-2.asd
+2. We could develop a new section in the website to include images of the UFOs that were sighted.
