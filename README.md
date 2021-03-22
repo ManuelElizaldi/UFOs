@@ -4,12 +4,21 @@ Using JavaScript, HTML, CSS and Bootstraping I developed a dynamic webpage that 
 
 The dataset file is located in the js folder under the name of 'data.js'
 
+
 ### Results:
-![](/static/images/results.jpg)
+![](/static/images/results.jpg width=100)
+
+Steps to perform a search using this website:
+1. Download or clone 
+2. asd
+3. asd
+4. asd
 
 
 ## Summary on how to use the application:
  use images 
  
-### 1 drawback of this webpage
+### Drawback of this webpage
+1.The dataset has little variety. The dataset is limited to the country of United States during the year of 2010.
+
 ### two additional recommendations for further development
