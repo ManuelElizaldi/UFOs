@@ -14,8 +14,11 @@ You can filter this UFO sightings dataset within five different criteria. Once y
 
 Steps to perform a search using this website:
 1. Download/clone this repository in your computer.
+
 2. Open the index.html file.
+
 3. enter the desired criteria in the Filter Search input boxes.
+
 4. Read the results in the table.
 
 
@@ -24,4 +27,5 @@ Steps to perform a search using this website:
 
 ### two additional recommendations for further development
 1.The data set can be expanded to include more sightings from other countries and years.
+
 2.asd
