@@ -6,7 +6,7 @@ The dataset file is located in the js folder under the name of 'data.js'
 
 
 ### Results:
-![](/static/images/results.jpg width=100)
+![](/static/images/results.jpg)
 
 Steps to perform a search using this website:
 1. Download or clone 
