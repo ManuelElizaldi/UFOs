@@ -6,19 +6,22 @@ The dataset file is located in the js folder under the name of 'data.js'
 
 
 ### Results:
-![](/static/images/results.jpg)
-
-Steps to perform a search using this website:
-1. Download or clone 
-2. asd
-3. asd
-4. asd
+![](/static/images/results.jpg width=100)
 
 
 ## Summary on how to use the application:
- use images 
- 
+You can filter this UFO sightings dataset within five different criteria. Once you enter your desired search criteria, information will be shown in the dynamic table. 
+
+Steps to perform a search using this website:
+1. Download/clone this repository in your computer.
+2. Open the index.html file.
+3. enter the desired criteria in the Filter Search input boxes.
+4. Read the results in the table.
+
+
 ### Drawback of this webpage
 1.The dataset has little variety. The dataset is limited to the country of United States during the year of 2010.
 
 ### two additional recommendations for further development
+1.The data set can be expanded to include more sightings from other countries and years.
+2.asd
